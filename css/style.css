@@ -527,6 +527,17 @@ footer{
 
 @media screen and (max-width: 900px){
 
+	ul.nav-desktop {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background: #6CC5B2;
+    width: 100%;
+    display: none;
+    z-index: 1000;
+}
+
+
 	.sobre > .container{
 		z-index: 0;
 	}
@@ -557,6 +568,15 @@ footer{
 	}
 }
 
+@media screen and (max-width: 900px){
+    .diferencial-single {
+        width: 100%;
+        text-align: center;
+        padding: 20px 0;
+    }
+}
+
 @media screen and (max-width: 480px){
 	.etapas__group2{display: none;}
 }
+
